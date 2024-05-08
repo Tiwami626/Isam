@@ -3,6 +3,7 @@ import { ReactTyped } from "react-typed";
 import backgroundImage from "../assets/car-background.jpg";
 import { motion } from "framer-motion";
 
+
 const Hero = () => {
   const [showText, setShowText] = useState(false);
 
