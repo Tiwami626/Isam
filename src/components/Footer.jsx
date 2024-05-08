@@ -2,7 +2,7 @@ import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='w-full mx-auto py-16 px-4 grid lg:grid-cols-3 gap-2 text-gray-600 bg-orange-100 bg-opacity-50 backdrop-filter backdrop-blur-md'>
+    <div className='w-full mx-auto py-0 px-4 grid lg:grid-cols-3 gap-2 text-gray-600 bg-orange-100 bg-opacity-50 backdrop-filter backdrop-blur-md'>
       <div className='mr-4 pl-4'>
         <h1 className='w-full text-xl sm:text-3xl font-bold text-gray-800'>
           ISAM TRADERS
