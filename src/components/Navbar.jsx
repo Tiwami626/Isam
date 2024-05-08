@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sm:sticky top-0 z-20 flex justify-between items-center h-24 mx-auto px-4 text-zinc-600 bg-gray-100 backdrop-opacity-20 backdrop-filter backdrop-blur-lg cursor-pointer transition-colors duration-300 ${
+      className={`sm:sticky top-0 z-20 flex justify-between items-center h-24 mx-auto px-4 text-zinc-600 cursor-pointer transition-colors duration-300 ${
         navOpen ? "sticky" : ""
       }`}
       style={{ backgroundColor: navOpen ? "#4A5568" : "transparent" }}>

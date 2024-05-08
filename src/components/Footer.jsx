@@ -8,13 +8,15 @@ const Footer = () => {
           ISAM TRADERS
         </h1>
         <p className='py-4 text-sm sm:text-base'>
-          <i>~ We are more than just places to buy vehicles.
-          <br />
-          We are a gateway to your dreams, where every test drive ignites the
-          possibility of a new journey
-          <br />
-          and every negotiation paves the way for unforgettable adventures on
-          the road of life ~</i>
+          <i>
+            ~ We are more than just places to buy vehicles.
+            <br />
+            We are a gateway to your dreams, where every test drive ignites the
+            possibility of a new journey
+            <br />
+            and every negotiation paves the way for unforgettable adventures on
+            the road of life ~
+          </i>
         </p>
         <div className='flex justify-between md:w-[75%] my-6'>
           <FaFacebookSquare size={30} />
@@ -22,9 +24,11 @@ const Footer = () => {
           <FaTwitterSquare size={30} />
         </div>
       </div>
-      <div className='lg:col-span-2 flex justify-between mt-6'>
+      <div className='lg:col-span-2 flex justify-between mt-6 cursor-pointer'>
         <div className='ml-8'>
-          <h6 className='font-medium text-gray-400'>Location</h6>
+          <h6 className='font-medium text-gray-400  hover:text-orange-600 transition-colors duration-300'>
+            Location
+          </h6>
           <ul>
             <li className='py-2 text-sm'>Isam Traders - Along Ngong Road</li>
             <li className='py-2 text-sm'>Opens from 8AM-6PM : MON-SAT</li>
@@ -33,7 +37,9 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className='font-medium text-gray-400'>Support</h6>
+          <h6 className='font-medium text-gray-400  hover:text-orange-600 transition-colors duration-300'>
+            Support
+          </h6>
           <ul>
             <li className='py-2 text-sm'>Pricing</li>
             <li className='py-2 text-sm'>Documentation</li>
@@ -41,7 +47,9 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className='font-medium text-gray-400'>Company</h6>
+          <h6 className='font-medium text-gray-400  hover:text-orange-600 transition-colors duration-300'>
+            Company
+          </h6>
           <ul>
             <li className='py-2 text-sm'>About</li>
             <li className='py-2 text-sm'>Blog</li>
@@ -49,7 +57,9 @@ const Footer = () => {
           </ul>
         </div>
         <div className='mr-8'>
-          <h6 className='font-medium text-gray-400'>Legal</h6>
+          <h6 className='font-medium text-gray-400  hover:text-orange-600 transition-colors duration-300'>
+            Legal
+          </h6>
           <ul>
             <li className='py-2 text-sm'>Claim</li>
             <li className='py-2 text-sm'>Policy</li>

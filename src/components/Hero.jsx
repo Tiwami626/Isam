@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <div
-      className='text-white bg-cover sm:bg-cover xl:bg-auto flex-shrink sm:flex-shrink-0 bg-center relative hero-container'
+      className='text-white bg-cover sm:bg-cover xl:bg-auto flex-shrink sm:flex-shrink-0 bg-center relative hero-container border-b border-gray-200'
       style={{ backgroundImage: `url(${backgroundImage})`, zIndex: -1 }}>
       <div className='max-w-[800px] w-full h-screen mx-auto flex flex-col'>
         <div className='flex justify-center items-center '>
